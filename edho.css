@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color:#f0f2f5;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    font-weight:normal;
+    line-height: 1.5em;
+}
+.container
+{
+    width: 80%;
+    margin: auto; /means equidistant from all sides/
+}
+.box-1
+{
+    background-color: black;
+    color: #f0f2f5;
+    border-left:5px red solid;
+    border-right: 5px red solid;
+    padding: 5px;
+    margin-top: 10px;
+   
+}
+
+.box-2{
+    border: 0.1em dashed coral;
+    margin:20px 0 ;
+    padding: 5px;
+}
+.categories
+{
+    border: 0.1em dashed grey;
+    padding:10px;
+    font:14px;
+    margin: 10px 0 ;
+}
+.categories-2
+{
+    border: 0.1em dashed grey;
+    padding:10px;
+    font:12px;
+    margin: 10px 0 ;
+}
+.categories-2 ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    list-style-image: url("check.png");
+}
+.my-form{
+    border: 1px solid grey;
+    padding: 10px;
+    display: block;
+}
+.my-form .form-control
+{
+    padding-bottom: 15px;
+}
+.my-form label
+{
+    display: block;
+}
+.my-form input
+{
+    padding: 8px;
+    color: #888;
+    width: 100%;
+    box-sizing: border-box;
+}
+.block
+{
+    border: #888 solid .1px;
+    width: 33.3%;
+    float: left;
+    padding: 1px;
+    box-sizing: border-box;
+}
+#main-block
+{
+   
+    width: 70%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+#sidebar
+{
+    width: 30%;
+    float: right;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:darkslategray;
+    color: #f0f2f5;
+}
+.sticky
+{
+  border-radius:50%;
+  border-style: none;
+  background: rgb(14, 116, 14);
+  color: #f0f2f5;
+  padding:2%;
+  top:100px;
+  left:5px;
+  position: fixed;  
+
+}
+.p-box{
+	
+	height:200px;
+	border:1px solid #000;
+	margin-top:30px;
+	position:relative;
+    background-image:url("./cosmic.webp");
+    background-repeat:no-repeat;
+    background-position:100px 200px;
+	background-position:center top;
+    
+}
+
+.p-box h1{
+	position:absolute;
+	top:100px;
+	left:200px;
+}
+
+.p-box h2{
+	position:absolute;
+	bottom:40px;
+	right:100px;
+}
+.clr{
+	clear:both;
+}
+
+.my-form input:focus
+{
+    padding: 8px;
+    color:black;
+    width: 100%;
+    border-color: aqua;
+    box-sizing: border-box;
+}
+.my-form textarea
+{
+    width: 100%; 
+    height: 100px;
+}
+.my-form input[type="submit"]
+{
+    background-color: rgb(14, 116, 14);
+    border:none;
+    color: #f0f2f5;
+   padding: 10px 15px;
+}
+
+.categories h4{
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+.categories ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.categories li{
+    list-style-type: none;
+    padding-left:10px;
+    margin:auto;
+}
+.categories a{
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+a:link {
+    color: #00F;
+}
+
+a:hover {
+    color: #F00;
+}
+
+a:visited {
+    color: #888;
+}
+
+a:active {
+    color: #0F0;
+}
+.box-1 h1{
+    font-family: Tahoma,sans-serif;
+    font-size:16px;
+    padding:5px;
+    text-decoration: underline ;
+    font-style: italic;
+    word-spacing:0.5em;
+}
